@@ -25,5 +25,6 @@ namespace AcademiaMagento.API.Controllers
             if (!sucesso) return BadRequest("Erro ao agendar avaliação");
             return Ok(new { message = "Avaliação agendada com sucesso" });
         }
+
     }
 }

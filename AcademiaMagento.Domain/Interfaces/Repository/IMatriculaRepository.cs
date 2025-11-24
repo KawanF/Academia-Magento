@@ -12,5 +12,10 @@ namespace AcademiaMagento.Domain.Interfaces.Repository
     {
         Task<IEnumerable<Matricula>> GetByAlunoIdAsync(long alunoId);
         Task<Matricula> GetMatriculaAtivaByAlunoIdAsync(long alunoId);
+        Task<Matricula> GetByIdWithServicosAsync(long id);
+
+
     }
+
+
 }

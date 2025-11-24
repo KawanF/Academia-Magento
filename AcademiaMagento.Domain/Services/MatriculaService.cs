@@ -25,30 +25,31 @@ namespace AcademiaMagento.Domain.Services
 
         public async Task<Matricula> CriarMatriculaAsync(long alunoId, List<long> servicosIds)
         {
-            var servicos = new List<Servico>();
-            foreach (var id in servicosIds)
-            {
-                var servico = await _servicoRepository.GetByIdAsync(id);
-                if (servico != null && servico.Ativo)
-                    servicos.Add(servico);
-            }
-
-            var valorTotal = servicos.Sum(s => s.Valor);
-
             var matricula = new Matricula
             {
                 AlunoId = alunoId,
-                ValorTotal = valorTotal,
-                Ativo = false, // Ativo só após pagamento confirmado
-                MatriculaServicos = servicos.Select(s => new MatriculaServico
-                {
-                    ServicoId = s.Id,
-                    ValorCobrado = s.Valor
-                }).ToList()
+                ValorTotal = 0,
+                Ativo = false
             };
+
+            matricula.MatriculaServicos = new List<MatriculaServico>();
+
+            foreach (var servicoId in servicosIds)
+            {
+                var servico = await _servicoRepository.GetByIdAsync(servicoId);
+
+                matricula.MatriculaServicos.Add(new MatriculaServico
+                {
+                    ServicoId = servico.Id,
+                    ValorCobrado = servico.Valor
+                });
+
+                matricula.ValorTotal += servico.Valor;
+            }
 
             await _matriculaRepository.AddAsync(matricula);
             await _matriculaRepository.SaveChangesAsync();
+
             return matricula;
         }
 
@@ -57,5 +58,12 @@ namespace AcademiaMagento.Domain.Services
             var matricula = await _matriculaRepository.GetMatriculaAtivaByAlunoIdAsync(alunoId);
             return matricula != null;
         }
+
+        public async Task<Matricula> GetByIdAsync(long id)
+        {
+            return await _matriculaRepository.GetByIdWithServicosAsync(id);
+        }
+
+
     }
 }

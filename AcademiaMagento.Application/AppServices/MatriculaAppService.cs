@@ -46,8 +46,12 @@ namespace AcademiaMagento.Application.AppServices
                 AlunoId = matricula.AlunoId,
                 ValorTotal = matricula.ValorTotal,
                 DataMatricula = matricula.DataMatricula,
-                Ativo = matricula.Ativo
+                Ativo = matricula.Ativo,
+                ServicosIds = matricula.MatriculaServicos?
+                                    .Select(ms => ms.ServicoId)
+                                    .ToList()
             };
         }
+
     }
 }

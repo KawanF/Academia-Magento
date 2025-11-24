@@ -3,7 +3,6 @@ using AcademiaMagento.Application.Interfaces;
 using AcademiaMagento.Domain.Interfaces.Repository;
 using AcademiaMagento.Domain.Interfaces.Repository._Base;
 using AcademiaMagento.Domain.Interfaces.Service;
-using AcademiaMagento.Domain.Interfaces.Services;
 using AcademiaMagento.Domain.Services;
 using AcademiaMagento.Infra.Data.EntityFramework.Context;
 using AcademiaMagento.Infra.Data.EntityFramework.Repository;

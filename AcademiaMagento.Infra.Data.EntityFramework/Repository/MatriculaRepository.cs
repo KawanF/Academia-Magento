@@ -33,5 +33,14 @@ namespace AcademiaMagento.Infra.Data.EntityFramework.Repository
                     .ThenInclude(ms => ms.Servico)
                 .FirstOrDefaultAsync(m => m.AlunoId == alunoId && m.Ativo);
         }
+
+        public async Task<Matricula> GetByIdWithServicosAsync(long id)
+        {
+            return await _dbSet
+                .Include(m => m.MatriculaServicos)
+                    .ThenInclude(ms => ms.Servico)
+                .FirstOrDefaultAsync(m => m.Id == id);
+        }
+
     }
 }
