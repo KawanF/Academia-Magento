@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+hn1OsjrREQ=",
+  "success": true,
+  "projectFilePath": "E:\\repo visual studio\\AcademiaMagento\\AcademiaMagento.Domain\\AcademiaMagento.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maresia\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Maresia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Maresia\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

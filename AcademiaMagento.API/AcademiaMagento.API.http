@@ -1,0 +1,6 @@
+@AcademiaMagento.API_HostAddress = http://localhost:5242
+
+GET {{AcademiaMagento.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

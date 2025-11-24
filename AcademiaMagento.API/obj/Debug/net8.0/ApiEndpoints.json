@@ -1,0 +1,352 @@
+[
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AcessoController",
+    "Method": "RegistrarEntrada",
+    "RelativePath": "api/Acesso/entrada",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AcademiaMagento.Application.ViewModels.AcessoRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AcessoController",
+    "Method": "RegistrarSaida",
+    "RelativePath": "api/Acesso/saida",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AcademiaMagento.Application.ViewModels.AcessoRequestViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AlunoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Aluno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AcademiaMagento.Application.ViewModels.AlunoViewModel, AcademiaMagento.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AlunoController",
+    "Method": "Create",
+    "RelativePath": "api/Aluno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aluno",
+        "Type": "AcademiaMagento.Application.ViewModels.AlunoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AlunoController",
+    "Method": "GetById",
+    "RelativePath": "api/Aluno/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AcademiaMagento.Application.ViewModels.AlunoViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AlunoController",
+    "Method": "Update",
+    "RelativePath": "api/Aluno/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "aluno",
+        "Type": "AcademiaMagento.Application.ViewModels.AlunoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AlunoController",
+    "Method": "Delete",
+    "RelativePath": "api/Aluno/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.AvaliacaoFisicaController",
+    "Method": "Agendar",
+    "RelativePath": "api/AvaliacaoFisica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "avaliacao",
+        "Type": "AcademiaMagento.Application.ViewModels.AvaliacaoFisicaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.MatriculaController",
+    "Method": "Create",
+    "RelativePath": "api/Matricula",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matricula",
+        "Type": "AcademiaMagento.Application.ViewModels.MatriculaCreateViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AcademiaMagento.Application.ViewModels.MatriculaViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.MatriculaController",
+    "Method": "GetById",
+    "RelativePath": "api/Matricula/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AcademiaMagento.Application.ViewModels.MatriculaViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.PagamentoController",
+    "Method": "ProcessarPagamento",
+    "RelativePath": "api/Pagamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagamento",
+        "Type": "AcademiaMagento.Application.ViewModels.PagamentoCreateViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.PagamentoController",
+    "Method": "ConfirmarPagamento",
+    "RelativePath": "api/Pagamento/{id}/confirmar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.ServicoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Servico",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AcademiaMagento.Application.ViewModels.ServicoViewModel, AcademiaMagento.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.ServicoController",
+    "Method": "Create",
+    "RelativePath": "api/Servico",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "servico",
+        "Type": "AcademiaMagento.Application.ViewModels.ServicoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.ServicoController",
+    "Method": "GetById",
+    "RelativePath": "api/Servico/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AcademiaMagento.Application.ViewModels.ServicoViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.ServicoController",
+    "Method": "Update",
+    "RelativePath": "api/Servico/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "servico",
+        "Type": "AcademiaMagento.Application.ViewModels.ServicoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.ServicoController",
+    "Method": "Delete",
+    "RelativePath": "api/Servico/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcademiaMagento.API.Controllers.ServicoController",
+    "Method": "GetAtivos",
+    "RelativePath": "api/Servico/ativos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AcademiaMagento.Application.ViewModels.ServicoViewModel, AcademiaMagento.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

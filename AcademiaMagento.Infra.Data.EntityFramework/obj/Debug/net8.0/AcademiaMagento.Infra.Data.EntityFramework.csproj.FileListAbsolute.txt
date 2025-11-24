@@ -1,0 +1,17 @@
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\bin\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.deps.json
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\bin\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.runtimeconfig.json
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\bin\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.dll
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\bin\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.pdb
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\bin\Debug\net8.0\AcademiaMagento.Domain.dll
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\bin\Debug\net8.0\AcademiaMagento.Domain.pdb
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.csproj.AssemblyReference.cache
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.AssemblyInfoInputs.cache
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.AssemblyInfo.cs
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.csproj.CoreCompileInputs.cache
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\Academia.458B8A34.Up2Date
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.dll
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\refint\AcademiaMagento.Infra.Data.EntityFramework.dll
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.pdb
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\AcademiaMagento.Infra.Data.EntityFramework.genruntimeconfig.cache
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Infra.Data.EntityFramework\obj\Debug\net8.0\ref\AcademiaMagento.Infra.Data.EntityFramework.dll

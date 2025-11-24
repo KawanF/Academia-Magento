@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "pFVtmVe1nK0=",
+  "success": true,
+  "projectFilePath": "E:\\repo visual studio\\AcademiaMagento\\AcademiaMagento.Infra.Data\\AcademiaMagento.Infra.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maresia\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\Maresia\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.10\\microsoft.extensions.configuration.9.0.10.nupkg.sha512",
+    "C:\\Users\\Maresia\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\Maresia\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.10\\microsoft.extensions.primitives.9.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\bin\Debug\net8.0\AcademiaMagento.Domain.deps.json
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\bin\Debug\net8.0\AcademiaMagento.Domain.dll
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\bin\Debug\net8.0\AcademiaMagento.Domain.pdb
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\AcademiaMagento.Domain.csproj.AssemblyReference.cache
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\AcademiaMagento.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\AcademiaMagento.Domain.AssemblyInfoInputs.cache
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\AcademiaMagento.Domain.AssemblyInfo.cs
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\AcademiaMagento.Domain.csproj.CoreCompileInputs.cache
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\AcademiaMagento.Domain.dll
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\refint\AcademiaMagento.Domain.dll
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\AcademiaMagento.Domain.pdb
+E:\repo visual studio\AcademiaMagento\AcademiaMagento.Domain\obj\Debug\net8.0\ref\AcademiaMagento.Domain.dll
